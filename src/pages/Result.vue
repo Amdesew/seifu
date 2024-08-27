@@ -81,7 +81,7 @@ export default {
         }
         this.loading = true;
         this.error = null;
-        axios.get(`http://127.0.0.1:8000/api/StudentResult/${this.searchId}`)
+        axios.get(`https://seifubackend.pythonanywhere.com/api/StudentResult/${this.searchId}`)
             .then(response => {
             console.log('Result: ', response.data)
             this.studentResult = response.data;
