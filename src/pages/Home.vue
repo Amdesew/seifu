@@ -1,4 +1,5 @@
 <template>
+  <meta name="google-site-verification" content="6pCYOMEaeVqR9uvrzRj5xhmDK-SNYUhEgQncMekiJcE" />
   <meta name="csrf-token" content="{{ csrf_token }}">
   
   <div class="text-center py-40">
